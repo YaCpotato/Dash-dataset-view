@@ -11,7 +11,7 @@ import pandas as pd
 
 import plotly.graph_objs as go
 import plotly.figure_factory as ff
-
+import pandas_profiling as pdp
 
 boston = load_boston()
 boston_df = pd.DataFrame(boston.data, columns=boston.feature_names)
