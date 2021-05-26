@@ -4,6 +4,13 @@ This tool supports exploratory data analysis based on CSV data.
 - Data preview
 - Correlation matrix
 
+### How to use
+
+```zsh
+% conda env create -n [ENV_NAME] -f conda_env.yml
+% python app.py
+```
+
 #### Data preview
 using [Dash DataTable](https://dash.plotly.com/datatable)
 ![DataPreview.png](./DataPreview.png)
